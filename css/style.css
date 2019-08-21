@@ -1,0 +1,39 @@
+#address_check_container {
+    padding: 0 20px;
+    width: 60%;
+}
+#address_check:before {
+    font-family: ETmodules;
+    font-weight: 400;
+    content: "\55";
+    font-size: 50px;
+    position: relative;
+    top: 15px;
+    float: left;
+    /* padding-right: 10px; */
+    left: 5px;
+    z-index: 99;
+}
+#address_check_field, #address_check_submit {
+    height: 55px;
+}
+#address_check_field {
+    float: left;
+    width: 80%;
+    font-size: 25px;
+    padding-left: 60px;
+    margin-left: -50px;
+    border-radius: 20px 0px 0px 20px;
+}
+#address_check_submit {
+    float: left;
+    border-radius: 0px 20px 20px 0px;
+    width: 80px;;
+    font-size: 16px;
+}
+.ap-input-icon { display: none; }
+.algolia-places { display: block !important;; }
+div.ap-footer { display: none !important; }
+span.ap-dropdown-menu {
+    top: 55px !important;
+}
